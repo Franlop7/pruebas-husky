@@ -3,7 +3,7 @@ import {
   ToolbarPod,
   ContainerGalleryPod,
   ComponentGalleryPod,
-} from "@/pods";
+} from '@/pods';
 
 export const MainScene = () => {
   return (
