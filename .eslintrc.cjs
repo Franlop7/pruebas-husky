@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react-refresh', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
   },
