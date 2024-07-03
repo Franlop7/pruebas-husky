@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:react-hooks/recommended',
+    'plugin:react/recommended',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react-refresh', 'prettier'],
+  plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
   },
